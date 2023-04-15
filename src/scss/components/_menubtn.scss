@@ -1,0 +1,27 @@
+button[data-burger] {
+    width: 60px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: space-between;
+    transition: all 350ms ease;
+    cursor: pointer;
+
+    span {
+        display: block;
+        height: 8px;
+        width: 100%;
+        background-color: wheat;
+        border-radius: 2px;
+    }
+
+    &:hover,
+    &:focus {
+        height: 50px;
+
+        > span {
+            background-color: orangered;
+        }
+    }
+}

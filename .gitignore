@@ -1,0 +1,10 @@
+node_modules
+package-lock.json
+.vscode
+.idea
+docs/
+src/video/
+.ogg
+/test-results/
+/playwright-report/
+/playwright/.cache/

@@ -1,0 +1,165 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 0 auto 2rem;
+
+
+
+    h1 {
+        font-weight: 700;
+        font-size: clamp(2.6rem, 1.7333rem + 3.5556vw, 6rem);
+        text-align: center;
+        margin: 2rem 0;
+    }
+
+    &__image {
+        opacity: 0;
+        width: min(80dvw, 600px);
+        transition: all 1s;
+        border: 6px solid #fff;
+        box-shadow: 4px 4px 5px #000;
+        -moz-box-shadow: 4px 4px 5px #000;
+        -webkit-box-shadow: 4px 4px 5px #000;
+        -khtml-box-shadow: 4px 4px 5px #000;
+    }
+
+    &__description {
+        max-width: 800px;
+        margin: auto;
+        padding: 1rem .5rem;
+        font-size: clamp(1.2rem, 1.098rem + 0.4183vw, 1.6rem);
+    }
+}
+
+// fadeIn animation on images and divs observed
+
+
+@keyframes fadeScaleIn {
+    0% {
+        opacity: 0;
+        transform: scale(0, 0);
+    }
+
+    70% {
+        opacity: 1;
+        transform: scale(1, 1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1, 1);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes foldDown {
+    from {
+        transform: scale(0, 1);
+    }
+
+    to {
+        transform: scale(1, 1);
+    }
+
+}
+
+
+
+
+$mimosa: #efc050;
+$orange: #F5672A;
+$error: #ff0f17;
+$chili: #9b2335;
+$reg_blue: #3399ff;
+$turquoise: #00A170;
+$neongreen: #39ff14;
+
+$colors: (
+    $reg_blue,
+    $orange,
+    $mimosa,
+    $turquoise,
+    $error,
+    $neongreen,
+    $chili
+);
+
+.music-notes {
+    position: absolute;
+    transform: scale(0, 0);
+    transform-origin: center;
+    opacity: 0;
+    color: $mimosa;
+    font-size: clamp(2.6rem, 1.7333rem + 3.5556vw, 6rem);
+
+    @for $i from 1 through length($colors) {
+        &:nth-child(#{length($colors)}n + #{$i}) {
+
+            color: nth($colors, $i);
+        }
+    }
+}
+
+.music-title {
+    font-family: 'Rampart One';
+    font-size: clamp(2.6rem, 1.7333rem + 3.5556vw, 5rem);
+    color: white;
+    transform-origin: center;
+    transform: scale(0, 0);
+    text-align: center;
+    position: relative;
+}
+
+info-card {
+    opacity: 0;
+    transform: scale(0, 1);
+    transform-origin: right;
+    transition: all 800ms;
+    z-index: 99;
+
+    &.active {
+        opacity: 1;
+    }
+
+    .subcard {
+        display: grid;
+        max-width: 900px;
+        margin: 1rem auto;
+        gap: 4rem;
+        grid-template-columns: 1fr 1fr;
+        z-index: 99;
+
+
+        div {
+            background-color: darkred;
+            padding: 1rem 1.5rem;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+
+            h3 {
+                font-size: clamp(1.2rem, 0.4863rem + 2.9281vw, 3.6rem);
+            }
+
+            p {
+                margin-bottom: .5rem;
+            }
+        }
+    }
+
+
+
+
+}

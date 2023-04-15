@@ -1,0 +1,26 @@
+@use './base/reset';
+@use './base/fonts';
+@use './components/menubtn';
+@use './components/nav';
+@use './components/footer';
+@use './components/card';
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    color: wheat;
+    background: url(../img/noten.jpg), linear-gradient(45deg, #003300 0%, #000099 50%, #000066 100%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+#app {
+    padding: 0 .5rem;
+}

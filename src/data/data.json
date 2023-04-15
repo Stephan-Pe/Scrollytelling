@@ -1,0 +1,137 @@
+{
+  "guitars": [
+    {
+      "id": 1,
+      "title": "My name is body!",
+      "image": "../img/guitar0.jpg",
+      "alt": "Work with hand mill"
+    },
+    {
+      "id": 2,
+      "title": "My name is neck!",
+      "image": "../img/guitar1.jpg",
+      "alt": "shape the guitar neck with a wood file"
+    },
+    {
+      "id": 3,
+      "title": "Ready for a layout?",
+      "image": "../img/guitar2.jpg",
+      "alt": "a fitting test when the parts are ready"
+    },
+    {
+      "id": 4,
+      "title": "Not so fast",
+      "image": "../img/guitar21.jpg",
+      "alt": "work with the chisel"
+    },
+    {
+      "id": 5,
+      "title": "First get into shape!",
+      "image": "../img/guitar22.jpg",
+      "alt": "work with the chisel"
+    },
+    {
+      "id": 6,
+      "title": "Space for accessories!",
+      "image": "../img/guitar58.jpg",
+      "alt": "milling cavities for electronics and connecting them with holes"
+    },
+    {
+      "id": 7,
+      "title": "A little curvy",
+      "image": "../img/guitar38.jpg",
+      "alt": "working out the contours with sandpaper"
+    },
+    {
+      "id": 8,
+      "title": "Smooth and tender skin!",
+      "image": "../img/guitar36.jpg",
+      "alt": "working out the contours with sandpaper"
+    },
+    {
+      "id": 9,
+      "title": "A channel for your guitar truss rod!",
+      "image": "../img/guitar27.jpg",
+      "alt": "milling a chanel for the guitar truss rod"
+    },
+    {
+      "id": 10,
+      "title": "Some filing, grinding and gluing!",
+      "image": "../img/guitar26.jpg",
+      "alt": "the neck needs markers"
+    },
+    {
+      "id": 11,
+      "title": "Frets on your neck!",
+      "image": "../img/guitar10.jpg",
+      "alt": "the neck needs frets"
+    },
+
+    {
+      "id": 12,
+      "title": "Precision!",
+      "image": "../img/guitar34.jpg",
+      "alt": "everything has to be lined up perfect"
+    },
+    {
+      "id": 13,
+      "title": "Even more precision!",
+      "image": "../img/guitar59.jpg",
+      "alt": "solder all parts"
+    },
+    {
+      "id": 14,
+      "title": "Find the right color!",
+      "image": "../img/guitar62.jpg",
+      "alt": "make a color sample"
+    },
+    {
+      "id": 15,
+      "title": "A bolt of cloth, shellac and patience!",
+      "image": "../img/guitar53.jpg",
+      "alt": "apply shellac"
+    },
+    {
+      "id": 16,
+      "title": "And again precision!",
+      "image": "../img/guitar14.jpg",
+      "alt": "wire all parts"
+    },
+    {
+      "id": 16,
+      "title": "before in the end...",
+      "image": "../img/guitar17.jpg",
+      "alt": "isolate with gold foil"
+    },
+    {
+      "id": 17,
+      "title": "the love you take is equal...",
+      "image": "../img/guitar61.jpg",
+      "alt": "until everything shines brightly"
+    },
+    {
+      "id": 18,
+      "title": "to the love you make!",
+      "image": "../img/guitar4.jpg",
+      "alt": "Isn't the guitar a beauty?"
+    }
+  ],
+  "info": {
+    "title1": "Figured maple",
+    "paragraph1": "Figured maple is a type of maple wood that has distinctive patterns, such as birdseye, tigerstripe, flame, or quilted patterns, which occur due to variations in the tree's growth. The unique patterns of figured maple make it a popular choice for high-end woodworking and musical instrument making.",
+    "paragraph2": "To use figured maple for crafting an electric guitar, you can choose a solid piece of wood or a bookmatched set of two pieces that are glued together. The wood should be dried to an appropriate moisture content and then shaped into the desired guitar body shape using woodworking tools such as a bandsaw, router, and chisels.",
+    "paragraph3": "Once the body shape is complete, the wood can be sanded smooth and a finish applied to protect the wood and enhance its natural beauty. The finish can be a clear coat or a colored stain, depending on your preference.",
+    "paragraph4": "Figured maple is also commonly used for guitar necks and fretboards. The wood is strong, stable, and resonant, which makes it an excellent choice for creating a durable and high-quality instrument.",
+    "title2": "PURE VINTAGE",
+    "paragraph5": "Pickups - Noiseless™ Telecaster® Pickup Set. The Fender Telecaster typically has two single-coil pickups, one at the bridge and one at the neck position.",
+    "paragraph6": "Potentiometers - TBX Tone Control Potentiometer Kit. The Telecaster typically has two potentiometers, one for volume and one for tone.",
+    "paragraph7": "Switch - The Telecaster typically has a three-way switch for selecting the pickups.",
+    "paragraph8": "Output jack - This is where you plug in your guitar cable.",
+    "paragraph9": "Capacitor - Pure Vintage Wax Paper Capacitor- .10uf @ 150V. This is a small electronic component that is wired to the tone potentiometer to control the treble frequencies that are sent to the amplifier.",
+    "paragraph10": "Wiring - You will need some wire to connect all the components together.",
+    "paragraph11": "Knobs - Telecaster®/Precision Bass® Dome Knob Sets. The Telecaster typically has two knobs, one for volume and one for tone.",
+    "paragraph12": "Pickguard - 8-Hole Mount Plated Telecaster® Pickguards. This is a plastic plate that is attached to the body of the guitar and holds the pickups, controls, and other components.",
+    "paragraph13": "Bridge - Standard Series Telecaster® Bridge Assembly. The Telecaster typically has a bridge with three saddles that can be adjusted for intonation.",
+    "paragraph14": "Tuners - Pure Vintage Guitar Tuning Machine Set. You will need six tuning machines to attach to the headstock of the guitar to adjust the tuning of each string."
+  }
+}
