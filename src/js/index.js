@@ -1,5 +1,6 @@
 import { cardObserver } from "./modules/observer.js";
 import { guitarComponent } from './modules/guitarComponent.js';
+import { doSomethingOnScroll } from "./modules/scroll.js";
 window.addEventListener('load', () => {
   const musicNotes = document.querySelectorAll('.music-notes');
   let containerHeight = document.querySelector('body').clientHeight;
@@ -17,7 +18,7 @@ window.addEventListener('load', () => {
   });
   cardObserver();
   guitarComponent();
-
+  doSomethingOnScroll();
 });
 
 

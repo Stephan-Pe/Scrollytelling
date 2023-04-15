@@ -1,0 +1,16 @@
+.bowl {
+  position: fixed;
+  overflow: hidden;
+  z-index: -1;
+  width: 600px;
+  aspect-ratio: 1;
+  display: block;
+  background-color: hsla(39, 94%, 50%, 0.623);
+  border: 2px solid hsla(49, 97%, 50%, .423);
+  box-shadow: 0px 1px 48px 66px hsla(51, 99%, 50%, 0.548);
+  -webkit-box-shadow: 0px 1px 48px 66px hsla(51, 99%, 50%, 0.548);
+  -moz-box-shadow: 0px 1px 48px 66px hsla(51, 99%, 50%, 0.548);
+  border-radius: 50%;
+  top: 710px;
+  right: 400px;
+}
