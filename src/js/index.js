@@ -5,7 +5,7 @@ window.addEventListener('load', () => {
   let containerHeight = document.querySelector('body').clientHeight;
   let width = window.innerWidth;
 
-
+  // give the music notes unique sizes
   musicNotes.forEach(el => {
     let s = Math.floor(10 + Math.random() * 250); // 10–100
     let y = Math.floor(Math.floor(.04 * containerHeight) * Math.random() * containerHeight); // 10–100

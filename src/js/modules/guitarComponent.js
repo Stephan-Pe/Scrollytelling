@@ -2,9 +2,12 @@ import './guitar-card.js';
 import './info-card.js';
 import { fetchData, API_URL } from './fetchData.js';
 
+// initialize empty object for dataimport
 
 let globalData = {};
+
 export async function guitarComponent() {
+  // load the imported webcomponents
   try {
     globalData = await fetchData(API_URL);
     let guitarData = globalData.guitars;
@@ -14,6 +17,11 @@ export async function guitarComponent() {
       el.guitar = guitar;
       if (APP) APP.appendChild(el);
     });
+
+    // observing the titles of course inside the component
+    // otherwise you can split the observer into observer and callback, taking 
+    // the callback outside the component
+
     const titles = document.querySelectorAll('.music-title');
     let titleObserver = new IntersectionObserver((entries) => {
 
@@ -46,6 +54,8 @@ export async function guitarComponent() {
     images.forEach(image => {
       imageObserver.observe(image);
     });
+    // for this you could as well use the MutationObserver API
+
     const infoElements = document.querySelectorAll('[data-src]');
     let info = globalData.info;
     let infoObserver = new IntersectionObserver((entries) => {
@@ -59,11 +69,12 @@ export async function guitarComponent() {
           el.style.animation = `foldDown .8s forwards .8s ease`;
 
           if (wrapper) wrapper.appendChild(el);
+          // unobserve prevents from creating endless new elements
           infoObserver.unobserve(entry.target);
         }
 
       });
-    }, { rootMargin: "0px 0px -400px 0px" });
+    }, { rootMargin: "0px 0px -400px 0px" }); // rootMargin helps for a little extra delay on this event
     infoElements.forEach(element => {
       infoObserver.observe(element);
     });
