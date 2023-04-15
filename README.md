@@ -1,4 +1,4 @@
-# Scrollytelling => IntersectionObserver API => WebComponents => Gulp ES6
+# Scrollytelling => IntersectionObserver API => WebComponents => scrollEvent => Gulp ES6
 
 1. You can download the zip or clone the Repository
 2. run npm init
